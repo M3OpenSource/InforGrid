@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<application xmlns="http://schemas.lawson.com/grid/configuration_v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" typeName="HelloWorld" version="10.1.0.1" xsi:schemaLocation="http://schemas.lawson.com/grid/configuration_v3 http://schemas.lawson.com/grid/configuration_v3">
+	<description>HelloWorld Grid Example</description>
+	<moduleDefinitions>
+		<moduleDefinition typeName="HelloWorld" entryPointClass="net.company.your.HelloWorld" horizontallyScalable="false" verticallyScalable="false">
+			<webApp name="HelloWorld" distributedSessions="false" sessionAffinity="true" />
+		</moduleDefinition>
+	</moduleDefinitions>
+	<nodeTypes>
+		<nodeType name="HelloWorld">
+			<module typeName="HelloWorld" />
+		</nodeType>
+	</nodeTypes>
+	<connectionDispatchers/>
+	<properties>
+		<propertyList name="grid.module.classpath">
+			<value>classes</value>
+			<value>jars/*</value>
+			<value>lib/*</value>
+		</propertyList>
+		<property name="grid.jvm.maxHeapMB">64</property>
+	</properties>
+</application>
