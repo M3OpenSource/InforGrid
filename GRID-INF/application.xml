@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<application xmlns="http://schemas.lawson.com/grid/configuration_v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" typeName="HelloWorld" version="1.0.2" xsi:schemaLocation="http://schemas.lawson.com/grid/configuration_v3 http://schemas.lawson.com/grid/configuration_v3">
+<application xmlns="http://schemas.lawson.com/grid/configuration_v3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" typeName="HelloWorld" version="1.0.3" xsi:schemaLocation="http://schemas.lawson.com/grid/configuration_v3 http://schemas.lawson.com/grid/configuration_v3">
 	<description>HelloWorld Grid Example</description>
 	<moduleDefinitions>
 		<moduleDefinition typeName="HelloWorld" entryPointClass="net.company.your.HelloWorld" horizontallyScalable="false" verticallyScalable="false">

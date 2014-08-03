@@ -1,4 +1,4 @@
-// javac -cp grid-core-1.11.27.jar net\company\your\HelloWorld.java
+// javac -cp grid-core-1.11.27.jar;. net\company\your\HelloWorld.java
 
 package net.company.your;
 
@@ -7,11 +7,14 @@ import com.lawson.grid.node.application.ApplicationEntryPointEx.GlobalState;
 import com.lawson.grid.node.application.ApplicationEntryPointEx.RemainingTaskCount;
 import com.lawson.grid.node.application.ModuleContext;
 
+import net.company.your.library1.*;
+
 public class HelloWorld implements ApplicationEntryPointEx {
 
 	private boolean isInitialized = false;
 
 	public boolean startModule(ModuleContext paramModuleContext) {
+		System.out.println(HelloWorldLibrary1.getMessage());
 		return true;
 	}
 
