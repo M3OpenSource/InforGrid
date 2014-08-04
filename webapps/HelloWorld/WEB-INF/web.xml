@@ -18,4 +18,13 @@
 		<url-pattern>/sup</url-pattern>
 	</servlet-mapping>
 
+	<security-constraint>
+		<web-resource-collection>
+			<url-pattern>/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>grid-user</role-name>
+		</auth-constraint>
+	</security-constraint>
+
 </web-app>
