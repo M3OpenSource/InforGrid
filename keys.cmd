@@ -1,4 +1,4 @@
-REM see  https://m3ideas.org/2017/05/17/building-an-infor-grid-lab-part-3/
+REM see  https://m3ideas.org/2017/05/15/building-an-infor-grid-lab-part-3/
 
 
 
